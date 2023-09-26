@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    text-align: center;
+    background-image: url("backgroundimagecodealphatemperature2.jpg");
+    height: 650px;
+
+}
+
+#container {
+    background-color:none;
+    width: 300px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 5px solid cyan;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(211, 28, 28, 0.2);
+    margin-top: 200px;
+}
+
+h1 {
+    font-size: 24px;
+    font-family:" Helvetica Nueue";
+    color:rgb(244, 244, 248);
+    z-index: 1;
+
+}
+
+input[type="number"] {
+    width: 100px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 5px solid black;
+    border-radius: 10px;
+
+}
+
+#convertToUnit{
+    width: 240px;
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+button {
+    background-color: #0074cc;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border: 5px solid rgb(142, 181, 225);
+    border-radius: 10px;
+}
+#unit{
+    width: 100px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 2px solid black;
+    border-radius: 10px;
+
+}
+#result{
+    color: white
+}
